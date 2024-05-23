@@ -13,7 +13,7 @@ Ubuntu 22.04では標準で`Ubuntu software`というアプリケーションセ
 - [Flatpak vs. Snap. 違いと特性](https://zenn.dev/ykesamaru/articles/a9586cc52a376e)
 - [日本語入力周りの整理・まとめ](https://zenn.dev/ykesamaru/articles/95ad7355c9bbba)
 
-![](assets/eye-catch.webp)
+![](https://raw.githubusercontent.com/yKesamaru/How_to_install_Flatpak_app/master/assets/eye-catch.webp)
 
 1. [Flatpakインストール周りの整理・まとめ](#flatpakインストール周りの整理まとめ)
    1. [はじめに](#はじめに)
@@ -127,7 +127,7 @@ flathub user
 
 サブセットの削除などについても[Installation: Flathub](https://docs.flathub.org/docs/for-users/installation)に載っています。
 
-![](assets/2024-05-23-10-11-26.png)
+![](https://raw.githubusercontent.com/yKesamaru/How_to_install_Flatpak_app/master/assets/2024-05-23-10-11-26.png)
 
 ## ランタイムについて
 参照：[Flatpak vs. Snap. 違いと特性](https://zenn.dev/ykesamaru/articles/a9586cc52a376e#%E3%83%A9%E3%83%B3%E3%82%BF%E3%82%A4%E3%83%A0)
@@ -202,7 +202,8 @@ flatpak install --user flathub com.github.jeromerobert.pdfarranger
 ```bash
 flatpak search <app_name>
 # 例: pdfarrangerのアプリケーションIDを調べる
-flatpak search pdfarrangerName             Description                                                    Application ID                         Version    Branch    Remotes
+flatpak search pdfarranger
+Name             Description                                                    Application ID                         Version    Branch    Remotes
 PDF Arranger     PDF Merging, Rearranging, Splitting, Rotating and Cropping     com.github.jeromerobert.pdfarranger    1.10.1     stable    flathub
 
 ```
@@ -344,7 +345,7 @@ Application Options:
 
 ### GUI
 [`Flatseal`というFlatpakアプリケーション](https://flathub.org/apps/com.github.tchx84.Flatseal)が使いやすいでしょう。
-![](assets/2024-05-23-14-12-34.png)
+![](https://raw.githubusercontent.com/yKesamaru/How_to_install_Flatpak_app/master/assets/2024-05-23-14-12-34.png)
 どこを変更したのか一目瞭然な上に、リセットする機能もついていておすすめです。
 `Flatseal`をユーザーレベルでインストールした場合でもシステムレベルでインストールしたFlatpakアプリケーションの権限を変更できます（未検証）
 
