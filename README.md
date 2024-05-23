@@ -1,5 +1,7 @@
 # Flatpakインストール周りの整理・まとめ
 
+追加・更新：2024年5月23日
+
 ## はじめに
 Ubuntu 22.04では標準で`Ubuntu software`というアプリケーションセンター的な仕組みが存在します。
 カノニカルの方針で、Snapアプリケーションとdebアプリケーションはインストールできますが、Flatpakはインストールできません。
@@ -81,7 +83,7 @@ flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flath
 参考：[Installation: Flathub](https://docs.flathub.org/docs/for-users/installation)
 使いたいFlatpakアプリケーションをインストールする前に、インストールするアプリケーションのフィルタリングを指定することができます。（前処理）
 このフィルタリングを**サブセット設定**と呼びます。
-サブセットを設定すると、そのサブセットの条件に一致するFlatpakアプリケーション飲みがインストール可能となります。
+サブセットを設定すると、そのサブセットの条件に一致するFlatpakアプリケーションのみがインストール可能となります。
 例えば`verified`サブセットを設定した場合、検証済みのFlatpakアプリケーションのみがインストール可能となります。
 
 なお、この操作は以後もCUIでFlatpakアプリケーションのインストールなどを行う場合限定となります。
